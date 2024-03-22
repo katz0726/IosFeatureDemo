@@ -11,11 +11,12 @@
 		C6AFD41D2BADC13000065B26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AFD41C2BADC13000065B26 /* SceneDelegate.swift */; };
 		C6AFD41F2BADC13000065B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AFD41E2BADC13000065B26 /* ViewController.swift */; };
 		C6AFD4222BADC13000065B26 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C6AFD4212BADC13000065B26 /* Base */; };
-		C6AFD4242BADC13100065B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6AFD4232BADC13100065B26 /* Assets.xcassets */; };
 		C6AFD4272BADC13100065B26 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C6AFD4262BADC13100065B26 /* Base */; };
 		C6AFD4322BADC13200065B26 /* IosFeatureDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AFD4312BADC13200065B26 /* IosFeatureDemoTests.swift */; };
 		C6AFD43C2BADC13200065B26 /* IosFeatureDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AFD43B2BADC13200065B26 /* IosFeatureDemoUITests.swift */; };
 		C6AFD43E2BADC13200065B26 /* IosFeatureDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AFD43D2BADC13200065B26 /* IosFeatureDemoUITestsLaunchTests.swift */; };
+		C6AFD4552BADD75000065B26 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AFD4542BADD75000065B26 /* fish.png */; };
+		C6AFD45A2BADD9FB00065B26 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6AFD4592BADD9FB00065B26 /* sample.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		C6AFD41C2BADC13000065B26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C6AFD41E2BADC13000065B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6AFD4212BADC13000065B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C6AFD4232BADC13100065B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6AFD4262BADC13100065B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6AFD4282BADC13100065B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6AFD42D2BADC13200065B26 /* IosFeatureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosFeatureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +49,10 @@
 		C6AFD4372BADC13200065B26 /* IosFeatureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosFeatureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AFD43B2BADC13200065B26 /* IosFeatureDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosFeatureDemoUITests.swift; sourceTree = "<group>"; };
 		C6AFD43D2BADC13200065B26 /* IosFeatureDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosFeatureDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6AFD44B2BADC17800065B26 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C6AFD44C2BADC1AA00065B26 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C6AFD4542BADD75000065B26 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		C6AFD4592BADD9FB00065B26 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		C6AFD40E2BADC13000065B26 = {
 			isa = PBXGroup;
 			children = (
+				C6AFD44C2BADC1AA00065B26 /* .gitignore */,
+				C6AFD44B2BADC17800065B26 /* README.md */,
 				C6AFD4192BADC13000065B26 /* IosFeatureDemo */,
 				C6AFD4302BADC13200065B26 /* IosFeatureDemoTests */,
 				C6AFD43A2BADC13200065B26 /* IosFeatureDemoUITests */,
@@ -99,11 +105,11 @@
 		C6AFD4192BADC13000065B26 /* IosFeatureDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C6AFD4562BADD9CD00065B26 /* Assets */,
 				C6AFD41A2BADC13000065B26 /* AppDelegate.swift */,
 				C6AFD41C2BADC13000065B26 /* SceneDelegate.swift */,
 				C6AFD41E2BADC13000065B26 /* ViewController.swift */,
 				C6AFD4202BADC13000065B26 /* Main.storyboard */,
-				C6AFD4232BADC13100065B26 /* Assets.xcassets */,
 				C6AFD4252BADC13100065B26 /* LaunchScreen.storyboard */,
 				C6AFD4282BADC13100065B26 /* Info.plist */,
 			);
@@ -125,6 +131,31 @@
 				C6AFD43D2BADC13200065B26 /* IosFeatureDemoUITestsLaunchTests.swift */,
 			);
 			path = IosFeatureDemoUITests;
+			sourceTree = "<group>";
+		};
+		C6AFD4562BADD9CD00065B26 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C6AFD4582BADD9EC00065B26 /* sounds */,
+				C6AFD4572BADD9D700065B26 /* images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C6AFD4572BADD9D700065B26 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C6AFD4542BADD75000065B26 /* fish.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C6AFD4582BADD9EC00065B26 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C6AFD4592BADD9FB00065B26 /* sample.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6AFD4242BADC13100065B26 /* Assets.xcassets in Resources */,
 				C6AFD4272BADC13100065B26 /* Base in Resources */,
 				C6AFD4222BADC13000065B26 /* Base in Resources */,
+				C6AFD45A2BADD9FB00065B26 /* sample.mp3 in Resources */,
+				C6AFD4552BADD75000065B26 /* fish.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
