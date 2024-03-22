@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var imageView: UIImageView!
 
     var player: AVAudioPlayer!
@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         let soundUrl = URL(fileURLWithPath: Bundle.main.bundlePath).appendingPathComponent("sample.mp3")
         do {
             player = try AVAudioPlayer(contentsOf: soundUrl)
+            player.delegate = self
             player.play()
         } catch {
             print("Failed")
@@ -39,6 +40,10 @@ class ViewController: UIViewController {
             // 指定位置に移動後、imageViewの位置をもとに戻す
             self.imageView.transform = CGAffineTransform.identity
         }
+    }
+
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        print("Finished to play sounds.")
     }
 }
 
