@@ -22,6 +22,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         imageView.image = animationImage
     }
 
+    // Tapボタンがタップされた場合
     @IBAction func buttonTapped(sender: UIButton) {
         // 音声ファイルを再生
         let soundUrl = URL(fileURLWithPath: Bundle.main.bundlePath).appendingPathComponent("sample.mp3")
@@ -40,6 +41,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             // 指定位置に移動後、imageViewの位置をもとに戻す
             self.imageView.transform = CGAffineTransform.identity
         }
+    }
+
+    // WEBボタンがタップされた場合
+    @IBAction func webButtonTapped(sender: UIButton) {
+        self.performSegue(withIdentifier: "toWeb", sender: nil)
     }
 
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
