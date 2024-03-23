@@ -48,6 +48,16 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         self.performSegue(withIdentifier: "toWeb", sender: nil)
     }
 
+    // Mapボタンがタップされた場合
+    @IBAction func mapButtonTapped(sender: UIButton) {
+        self.performSegue(withIdentifier: "toMap", sender: nil)
+    }
+
+    // Image Fileterボタンがタップされた場合
+    @IBAction func imageFilterButtonTapped(sender: UIButton) {
+        self.performSegue(withIdentifier: "toImageFilter", sender: nil)
+    }
+
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         print("Finished to play sounds.")
     }

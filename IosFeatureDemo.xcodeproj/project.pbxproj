@@ -18,6 +18,9 @@
 		C6AFD4552BADD75000065B26 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AFD4542BADD75000065B26 /* fish.png */; };
 		C6AFD45A2BADD9FB00065B26 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6AFD4592BADD9FB00065B26 /* sample.mp3 */; };
 		C6AFD45C2BAE451200065B26 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AFD45B2BAE451200065B26 /* WebViewController.swift */; };
+		C6AFD45E2BAE4AF600065B26 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AFD45D2BAE4AF600065B26 /* MapViewController.swift */; };
+		C6AFD4602BAE519600065B26 /* sample_image.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AFD45F2BAE519600065B26 /* sample_image.png */; };
+		C6AFD4622BAE524900065B26 /* ImageFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AFD4612BAE524900065B26 /* ImageFilterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		C6AFD4542BADD75000065B26 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
 		C6AFD4592BADD9FB00065B26 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 		C6AFD45B2BAE451200065B26 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C6AFD45D2BAE4AF600065B26 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C6AFD45F2BAE519600065B26 /* sample_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_image.png; sourceTree = "<group>"; };
+		C6AFD4612BAE524900065B26 /* ImageFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,8 @@
 				C6AFD4252BADC13100065B26 /* LaunchScreen.storyboard */,
 				C6AFD4282BADC13100065B26 /* Info.plist */,
 				C6AFD45B2BAE451200065B26 /* WebViewController.swift */,
+				C6AFD45D2BAE4AF600065B26 /* MapViewController.swift */,
+				C6AFD4612BAE524900065B26 /* ImageFilterViewController.swift */,
 			);
 			path = IosFeatureDemo;
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 		C6AFD4572BADD9D700065B26 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C6AFD45F2BAE519600065B26 /* sample_image.png */,
 				C6AFD4542BADD75000065B26 /* fish.png */,
 			);
 			path = images;
@@ -268,6 +277,7 @@
 				C6AFD4272BADC13100065B26 /* Base in Resources */,
 				C6AFD4222BADC13000065B26 /* Base in Resources */,
 				C6AFD45A2BADD9FB00065B26 /* sample.mp3 in Resources */,
+				C6AFD4602BAE519600065B26 /* sample_image.png in Resources */,
 				C6AFD4552BADD75000065B26 /* fish.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,9 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6AFD4622BAE524900065B26 /* ImageFilterViewController.swift in Sources */,
 				C6AFD41F2BADC13000065B26 /* ViewController.swift in Sources */,
 				C6AFD41B2BADC13000065B26 /* AppDelegate.swift in Sources */,
 				C6AFD41D2BADC13000065B26 /* SceneDelegate.swift in Sources */,
+				C6AFD45E2BAE4AF600065B26 /* MapViewController.swift in Sources */,
 				C6AFD45C2BAE451200065B26 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
